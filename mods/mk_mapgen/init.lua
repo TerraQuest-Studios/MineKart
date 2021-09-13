@@ -5,12 +5,14 @@ minetest.register_node("mk_mapgen:bedrock", {
 
 minetest.register_node("mk_mapgen:dirt", {
     description = "bedrock",
-    tiles = {"mk_dirt.png"}
+    tiles = {"mk_dirt.png"},
+    groups = {oddly_breakable_by_hand = 3}
 })
 
 minetest.register_node("mk_mapgen:dirt_with_grass", {
     description = "bedrock",
-    tiles = {"mk_grass.png"}
+    tiles = {"mk_grass.png"},
+    groups = {oddly_breakable_by_hand = 3}
 })
 
 local layers = {
