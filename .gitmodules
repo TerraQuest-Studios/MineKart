@@ -4,3 +4,6 @@
 [submodule "mods/mobkit"]
 	path = mods/mobkit
 	url = https://github.com/TheTermos/mobkit.git
+[submodule "mods/trackelements"]
+	path = mods/trackelements
+	url = https://github.com/APercy/trackelements.git
