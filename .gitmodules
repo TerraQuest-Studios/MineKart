@@ -1,0 +1,6 @@
+[submodule "mods/minekart"]
+	path = mods/minekart
+	url = https://github.com/APercy/minekart.git
+[submodule "mods/mobkit"]
+	path = mods/mobkit
+	url = https://github.com/TheTermos/mobkit.git
