@@ -7,7 +7,7 @@ globals = {
     "minetest", "core",
 
     --mod provided
-
+    "mk_track_manager",
 }
 
 read_globals = {
