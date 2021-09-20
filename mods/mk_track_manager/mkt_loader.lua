@@ -27,12 +27,7 @@ local mkt_test2 = {
         {{schem = "tcs", rot = 90},{schem = "ts", rot = 90},"tcs"},
     }
 }
-local test = minetest.safe_file_write(mkt_dir .. "/testing_test2.mkt", minetest.write_json(mkt_test2, true))
-minetest.register_chatcommand("test", {
-    func = function(name,param)
-        if test then minetest.chat_send_all("yes") else minetest.chat_send_all("no") end
-    end
-})
+minetest.safe_file_write(mkt_dir .. "/testing_test2.mkt", minetest.write_json(mkt_test2, true))
 
 
 -----------
