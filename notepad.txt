@@ -1,0 +1,3 @@
+//lua minetest.show_formspec("singleplayer", "test:test", "size[10,5]model[1,1;2,2;test;kart_body.b3d;kart_black.png,kart_painting.png,kart_painting.png,kart_red.png,kart_black.png,kart_white.png,kart_black.png,kart_black.png,kart_black.png,kart_black.png,kart_metal.png,kart_black.png,kart_black.png,kart_metal.png,kart_black.png,kart_metal.png;-45,135;false;true;1,1]")
+mobile formspec max: 16,7
+desktop formspec max: 22,12
