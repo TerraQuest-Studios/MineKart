@@ -7,3 +7,9 @@
 [submodule "mods/trackelements"]
 	path = mods/trackelements
 	url = https://github.com/APercy/trackelements.git
+[submodule "mods/minetest-formspec_ast"]
+	path = mods/minetest-formspec_ast
+	url = https://gitlab.com/luk3yx/minetest-formspec_ast.git
+[submodule "mods/kuto"]
+	path = mods/kuto
+	url = https://github.com/TerraQuest-Studios/kuto.git
